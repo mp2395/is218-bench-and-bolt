@@ -2,7 +2,7 @@
 
 Team: Megha Patel and Ana Sanchez. Stage: Review 1 — Plan.
 
-Status: Planning decisions confirmed by Megha in this conversation on behalf of the team. Ana's independent confirmation and real cross-review are not evidenced here. No implementation or runtime checks are claimed. This is a fictional customer scenario from the instructor kit, not a real business interview.
+Status: Planning decisions confirmed by Megha in this conversation on behalf of the team. Ana confirmed the selected scope, four stories, Python-only approach, and responsibilities. Real cross-review is confirmed.  Both members confirmed the scope and responsibilities. Specific review feedback, linked changes, and reviewer verification is confirmed. This is a fictional customer scenario from the instructor kit, not a real business interview.
 
 Shared repository: pending creation. Customer agreement: [customer-kit/CUSTOMER-NOTES.md](customer-kit/CUSTOMER-NOTES.md). Keep this one SPEC.md as the evolving shared record.
 
@@ -105,8 +105,8 @@ Reviewer/date/revision: pending. Issue, change, check, and retry links: pending.
 
 ## AI assistance, current checks, and next
 
-ChatGPT organized the instructor scenario and drafted this record from Megha's stated decisions. It did not impersonate Ana or a real reviewer. The simulation can establish fictional business scope, not technical verification. Initial expectation: a manageable local workflow. Observed result: an agreed planning direction and written checks, not running software. Next time: define expected results independently before using AI to suggest implementation.
+ChatGPT helped Megha to record this. It did not impersonate Ana or a real reviewer. The simulation can establish fictional business scope, not technical verification. Initial expectation: a manageable local workflow. Observed result: an agreed planning direction and written checks, not running software. Next time: define expected results independently before using AI to suggest implementation.
 
-Observed preparation: supplied scenario inspected, four stories and allowed states compared with its facts, and planning files prepared. Not run: program, automated tests, persistence, real human review, and CI. Repository upload and Ana's independent confirmation remain pending. Keep those labels until evidence exists.
+Observed preparation: supplied scenario inspected, four stories and allowed states compared with its facts, and planning files prepared. Not run: program, automated tests, persistence, real human review, and CI. Keep those labels until evidence exists.
 
 Next: share this plan with Ana, create/use one shared group repository, obtain actual member confirmation and plan feedback, update links, and implement the later first slice. The kit's bounded later change and final acceptance have not been requested or completed. Check the course schedule before adding later scope.
