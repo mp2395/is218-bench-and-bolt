@@ -58,7 +58,17 @@ Reject all unlisted transitions without changing memory or the saved file. Faile
 
 Start → load JSON → show menu → add/view/find/update → validate → save successful mutation → show honest confirmation → return to menu → exit.
 
-Menu: Add inquiry; View queue; View details by ID; Update status; Exit. Empty queue displays No inquiries yet. Unsupported menu choices prompt again. Missing JSON file starts an empty queue. Corrupt JSON or a write failure produces an error and must not silently overwrite existing data. Single-process local use only; concurrent edits are outside the promise. Use a temporary file and replacement for a completed save; test failure behavior later.
+Menu: Add inquiry; View queue; View details by ID; Update status; Exit. Empty queue displays No inquiries yet. Unsupported menu choices prompt again. Missing JSON file starts an empty queue. Corrupt JSON or a write failure produces an error and must not silently overwrite existing data. Single-process local use only; concurrent edits are outside the promise. Use a temporary file and replacement for a completed save; test failure behavior later.### Planned error messages and recovery
+
+If the JSON file is damaged, display:
+“Saved inquiries could not be read. No data was changed. Restore a valid file before continuing.”
+Stop without overwriting the file.
+
+If saving fails, display:
+“The inquiry could not be saved. Existing records were preserved. Check file access and try again.”
+Do not show a success message or keep the unsaved change in memory.
+
+These behaviors are planned; runtime checks have not been run.
 
 ## Architecture sketch and proposed files
 
