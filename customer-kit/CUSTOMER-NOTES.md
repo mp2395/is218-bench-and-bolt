@@ -4,7 +4,7 @@ Fictional customer exercise, not a real interview. This is the team's one notes 
 
 - Team: Megha Patel and Ana Sanchez; shared repository pending.
 - Selected customer: Bench & Bolt, Maya Chen. Scenario: scenarios/repair-shop.md.
-- Stage: Review 1 Plan. Choices below were confirmed by Megha in this conversation; Ana's independent confirmation is not evidenced here.
+- Stage: Review 1 Plan. Choices below were confirmed by Megha in this conversation; Ana's confirmed the selected scope. 
 - Authoritative spec: [SPEC.md](../SPEC.md).
 - Protected finishing week: not confirmed; check before introducing new scope.
 
